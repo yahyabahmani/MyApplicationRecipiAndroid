@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/recepiFragment">
+
+    <fragment
+        android:id="@+id/recepiFragment"
+        android:name="com.example.myapplicationrecipi.ui.fragment.recipes.RecepiFragment"
+        android:label="fragment_recepi"
+        tools:layout="@layout/fragment_recepi" />
+    <fragment
+        android:id="@+id/favoriteRecepiFragment"
+        android:name="com.example.myapplicationrecipi.ui.fragment.favorites.FavoriteRecepiFragment"
+        android:label="seyed"
+        tools:layout="@layout/fragment_favorite_recepi" />
+    <fragment
+        android:id="@+id/foodJokeFragment"
+        android:name="com.example.myapplicationrecipi.ui.fragment.foodJoke.FoodJokeFragment"
+        android:label="fragment_food_joke"
+        tools:layout="@layout/fragment_food_joke" />
+</navigation>
