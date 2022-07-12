@@ -39,6 +39,8 @@ private  lateinit var newRecsView:RecyclerView
         showShimmerEffect()
         getData()
         return  mview
+
+        
     }
 
     private fun getData() {
