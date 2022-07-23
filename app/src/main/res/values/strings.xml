@@ -14,4 +14,10 @@
     <string name="recipes_fragment">Recipes</string>
     <string name="recipes_favorite">Favorite</string>
     <string name="recipes_joke">Joke</string>
+    <string name="meal_type">Meal Type</string>
+    <string name="sidedish">sideDish</string>
+    <string name="desert">desert</string>
+    <string name="maincourse">mainCourse</string>
+    <string name="diettype">DietType</string>
+    <string name="apply">Apply</string>
 </resources>

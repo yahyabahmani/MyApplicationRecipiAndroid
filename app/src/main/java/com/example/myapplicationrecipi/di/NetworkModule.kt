@@ -3,6 +3,7 @@ package com.example.myapplicationrecipi.di
 import com.example.myapplicationrecipi.data.network.FoodRecipesApi
 import com.example.myapplicationrecipi.util.Constants.Companion.base_url
 import com.example.myapplicationrecipi.model.FoodRecepi
+import com.example.myapplicationrecipi.ui.Test
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -51,5 +52,10 @@ object NetworkModule {
     fun providerApiService(retrofit: Retrofit): FoodRecipesApi {
         return retrofit.create(FoodRecipesApi::class.java)
     }
+
+    @Provides
+    fun providesTest(
+
+    ):Test = Test(1,2,3)
 
 }

@@ -1,4 +1,4 @@
-package com.example.myapplicationrecipi
+package com.example.myapplicationrecipi.viewModel
 
 import android.app.Application
 import android.content.Context
@@ -11,11 +11,8 @@ import com.example.myapplicationrecipi.data.Repository
 import com.example.myapplicationrecipi.model.FoodRecepi
 import com.example.myapplicationrecipi.util.NetworkResult
 import dagger.hilt.android.lifecycle.HiltViewModel
-import dagger.hilt.android.qualifiers.ApplicationContext
-import dagger.hilt.android.scopes.ViewModelScoped
 import kotlinx.coroutines.launch
 import retrofit2.Response
-import java.time.temporal.TemporalQueries
 import javax.inject.Inject
 
 @HiltViewModel

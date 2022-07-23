@@ -4,12 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="../../../../layout/custom_preview.xml" value="0.16336930455635493" />
+        <entry key="app/src/main/res/drawable/ic_baseline_downloading_24.xml" value="0.2115" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="app/src/main/res/layout/content_main.xml" value="0.13768115942028986" />
         <entry key="app/src/main/res/layout/fragment_favorite_recepi.xml" value="0.13496376811594202" />
         <entry key="app/src/main/res/layout/fragment_first.xml" value="0.13768115942028986" />
         <entry key="app/src/main/res/layout/fragment_food_joke.xml" value="0.13496376811594202" />
-        <entry key="app/src/main/res/layout/fragment_recepi.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/fragment_recepi.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_recipes_bottom_sheet.xml" value="0.2641509433962264" />
         <entry key="app/src/main/res/layout/fragment_second.xml" value="0.13768115942028986" />
         <entry key="app/src/main/res/layout/list_item_recipe.xml" value="0.1" />
         <entry key="app/src/main/res/layout/recipes_row_layout.xml" value="0.36372873406661194" />
